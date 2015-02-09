@@ -1,2 +1,2 @@
 # Sverkunova-bionic
-selenium qs project
+Selenium Sverkunova
