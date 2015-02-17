@@ -8,11 +8,11 @@ public class RealType {
 	private Pattern pattern;
 	private Matcher matcher;
 	
-	private String regex = "[+-]?(?:\\d+\\.?\\d*|\\d*\\.\\d+)";
+	private String regex = "[+-]?(?:\\d+\\.\\d+)";
 	
-	public boolean verification(double number){
+	public boolean verification(String number){
 		pattern = Pattern.compile(regex);
-		matcher = pattern.matcher(Double.toString(number));
+		matcher = pattern.matcher(number);
 		return matcher.matches();
 	}
 		
