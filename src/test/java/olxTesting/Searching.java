@@ -14,7 +14,7 @@ public class Searching {
 	public static final String ID1 = "headerSearch";
 	public static final String INPUT = "Nokia lumia 630 black";
 	public static final String ID2 = "submit-searchmain";
-	public static final String XPATH1 = "/html/body/div[1]/div[2]/section/div/div/div[3]/table[2]/tbody/tr[";
+	public static final String XPATH1 = "/html/body/div[1]/div[2]/section/div/div/div[3]/table/tbody/tr[";
 	public static final String XPATH2 = "]/td/table/tbody/tr/td[3]/h3/a/span";
 	
 	@BeforeSuite
