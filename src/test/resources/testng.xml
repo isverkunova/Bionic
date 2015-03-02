@@ -3,9 +3,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="TestSuite" verbose="1" >
-    <test name="Test">
+    <test name="Test2">
         <classes>
-            <class name="hwtest3.TryTest" />
+            <class name="olxTesting.Searching" />
         </classes>
     </test>
 </suite>
